@@ -1,0 +1,87 @@
+/* Aqui comienza el reset css */
+
+html,body,h1,h2,h3,h4,h5,h6,p,ol,ul,li,pre,code,address,form,fieldset{
+	padding: 0;
+	margin: 0;
+	font-size: 100%;
+	font-weight: normal;
+}
+
+ol{
+	margin-left: 1.4em;
+	list-style: decimal;
+}
+ul{
+	margin-left: 1.4em;
+	list-style: square;
+}
+
+img{
+	border: 0;
+}
+
+/* Aqui termina el reset css*/
+
+/*Comienzo del codigo*/
+.fondo{
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-image: url('../img/fondo1.png');
+	background-color: #464646;
+}
+.nav{
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+	height: 40px;
+	z-index: 9999;
+	position: fixed;
+	text-align: center;
+	text-decoration: none;
+}
+.nav, a{
+	display: inline-block;
+	border:  1px solid;
+	font-family: italic;
+	border-radius: 3px;
+	padding: 4px 10px;
+}
+#contenedor{
+	padding-top: 140px;
+	color: #efecec;
+	font-family: italic;
+	text-transform: uppercase;
+	text-align: center;
+}
+.sub-title{
+	margin: 50px auto;
+	font-size: 18px;
+}
+.primary{
+	color: white;
+	text-decoration: none;
+}
+a:hover{
+	color: white;
+}
+.modal{
+	padding-top: 50px;
+}
+.rs{
+	font-size:1.19em;
+	text-align: right;
+
+}
+.cero{
+	width: 100%;
+}
+.especial{
+	height: 119%;
+}
+.fer{
+	position: relative;
+	left: -5%;
+}
+
+
